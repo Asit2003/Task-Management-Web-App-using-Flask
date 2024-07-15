@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Task Smask</title>
+{% endblock %}
+
+{% block body %}
+
+<div>
+    <h1>Task Smash 3.0</h1>
+    <table>
+        <tr>
+            <th>Task</th>
+            <th>Added</th>
+            <th>Actions</th>
+        </tr>
+        <tr>
+            <td>Content</td>
+            <td>Data</td>
+            <td>More</td>
+        </tr>
+    </table>
+
+    <form action="">
+        <input type="text" name="content" id="content" />
+        <input type="submit" value="Add Task" id="btn_add" />
+    </form>
+</div>
+
+{% endblock %}
